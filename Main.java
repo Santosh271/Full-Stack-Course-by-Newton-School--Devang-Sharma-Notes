@@ -11276,3 +11276,549 @@ Map:
 
 
 
+Date : 13th February 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda : Arraylists and Vectors (DSA-2)
+
+(1) Arraylists- Theory- DONE
+(2) Code - DONE
+(3) Array vs Arraylist: DONE
+(4) Vector- Theory
+(5) Code - DONE
+(6) Array vs Arraylist vs Vectors - DONE
+(7) Assignment Questions- DONE
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
+
+
+Weekdays: Web Development - HTML, CSS, JS, PROJECTS, Reactjs
+Weekends: DSA-2(Arraylists, Vectors, Linked Lists, Maps, Sets)
+
+DSA-3: DP, Backtracking, Trees, Graphs, CP
+
++ Assignment Questions
+
+
+DSA-1: DONE
+
+Arrays-1 D and 2 D
+Time and Space Complexity
+OOPS
+Two POinters
+Prefix Sums
+Strings
+Functions
+Recursion
+Stacks and Queues
+
+
+DSA-2
+Linked List: DONE
+
+
+ArrayList in JAVA:
+
+
+Arrays in Java- 1D and 2D Array
+
+
+int arr[n];
+int arr[] = new int[n];
+int arr= {1,2,3,4,5};
+
+Indexing: 0 to size-1
+
+arr[0] = 1
+arr[2] = 3
+
+
+Limitations:
+
+(1) Static in Nature
+
+Cannot change the size in Run Time
+
+int arr[100];
+
+100 -> 200: NO
+100 -> 50: NO
+
+
+Static in Nature
+
+(2) Upperlimit on Size
+
+
+int arr[10000000000]; // Stack Overflow
+
+Stored in Contiguous Memory -> Not available in RAM -> Stack Overflow
+
+
+
+Linked List Limitation: 
+(1) Only Sequential Access
+(2) No Backtracking in Single LL
+
+Really Good DS: Features of LL + Features of Arrays
+                = Dynamic DS + Indexing(Random Access)
+                = ArrayList (Arrays + Lists)
+
+
+
+
+ArrayList:
+
+(1) Dynamic In Nature - Increase/Decrease Size in Run Time
+(2) Indexing (Random Access)
+(3) Defined under java.util.*;
+
+
+CODE:
+
+
+import java.io.*;
+import java.util.*;
+
+public class Main 
+{
+    public static void main(String[] args) 
+    {   
+        // Create an Array List
+        ArrayList<Integer> arr = new ArrayList<Integer>(5);
+        
+        int i=0;
+        for (i=0; i<10; i++)
+            arr.add(i);
+        
+        // Add at particular index
+        // arr.add(1, 10);
+        
+        System.out.println(arr);
+        arr.remove(6); // Removal based upon value not index
+        
+        // Changing Element at a Location
+        arr.set(1,10);
+        
+        ArrayList<String> arr2 = new ArrayList<String>();
+        arr2.add("Devang");
+
+        System.out.println(arr);
+        System.out.println(arr2);
+        System.out.println("Length:" + arr.size());
+        
+        System.out.println();
+//        System.out.println(arr.get(1));
+//        arr.remove(arr.get(1)); Remove based upon index
+        
+        // Long Way- Iterate Over Index
+        System.out.println("Print Array List Element by Element: Long Way");
+        for (i=0; i<arr.size(); i++)
+            System.out.print(arr.get(i) + " ");
+        
+        System.out.println();
+        
+        // Short Way- Iterate Over Values
+        System.out.println("Print Array List Element by Element: Short Way");
+        for (int k:arr)
+            System.out.print(k + " ");
+
+        
+    }
+}
+
+
+
+
+
+
+
+
+Q: How it adjusts the Dynamic Nature/Size?
+
+    ArrayList<Integer> arr = new ArrayList<Integer>(size);
+
+
+
+
+ArrayList<Integer> arr = new ArrayList<Integer>(5);
+
+Number of value <=5: NO CHANGE
+
+Internally:
+
+Insert,  6th Value
+Arraylist: Changes it size to 1.5x: 5*1.5 = 7.5
+
+Insert, 8th Value:
+Arraylist: Changes it size to 1.5x: 7.5*1.5 = 12.25
+
+
+Before Java 8, 
+
+Arraylist -> 2*Arraylist
+
+After JAVA 8:
+
+Arraylist -> 1.5*Arraylist (When More Elements Inserted)
+
+Vector -> 2*Vector (When More Elements Inserted)
+
+
+
+
+
+
+
+
+Vectors Code:
+
+import java.io.*;
+import java.util.*;
+
+public class Main 
+{
+    public static void main(String[] args) 
+    {   
+        // Create an Array List
+        Vector<Integer> v = new Vector<Integer>(5);
+        Vector<String> v1 = new Vector<String>();
+        
+        int i=0;
+        for (i=0; i<10; i++)
+            v.add(i);
+        
+        v1.add("Devang");
+        
+        // Add at particular index
+        // v.add(1, 10);
+        
+        System.out.println(v);
+        System.out.println(v1);
+        
+        // Changing Element at a Location
+        v.set(1,10);
+        
+        v.remove(6); // Removal based upon value not index
+
+        System.out.println(v);
+        System.out.println("Length:" + v.size());
+            
+        System.out.println();
+//        System.out.println(v.get(1));
+//        arr.remove(v.get(1)); Remove based upon index
+        
+        // Long Way- Iterate Over Index
+        System.out.println("Print Vector Element by Element: Long Way");
+        for (i=0; i<v.size(); i++)
+            System.out.print(v.get(i) + " ");
+        
+        System.out.println();
+        
+        // Short Way- Iterate Over Values
+        System.out.println("Print Vector Element by Element: Short Way");
+        for (int k:v)
+            System.out.print(k + " ");
+
+        
+    }
+}
+
+
+
+
+ArrayList vs Vectors:
+
+
+(1) When Total Number of Elements exceed Capacity:
+Arraylist -> 1.5x
+Vector -> 2x
+
+
+(2) ArrayList is Not Synchronised, 
+Vector is Synchronised.
+
+(3) Arraylists: Faster (Non-Sysnchronised)
+Vector: Slower (Synchronised)
+
+
+
+
+Synchronisation:
+
+Multi-Threaded Environment:
+
+ArrayList: NOT Synchronised
+    Thread t1 -> add()
+    Thread t2 -> remove()
+    Thread t3 -> size()
+
+- Independent Working Threads
+- Multiple Operations can be performed at SAME TIME due to Multiple Threads
+
+
+Vector:
+    Thread t1 -> One Operation at a time
+
+- Only 1 Thread
+- Only 1 Operation at ONE TIME
+
+
+
+
+
+
+
+
+ASSIGNMENT QUESTIONS:
+
+
+
+
+(1) TWO SUM:
+
+
+You are given an array A of size N, and you are also given a sum. 
+You need to find if two numbers in A exists such that their sum is equal to the given sum. 
+If yes, print 1, else print 0.
+
+
+arr = [1,2,3,4,5]
+a + b == target
+
+target : 6
+
+OP: true
+[1,5], [2,4]
+
+
+target: 12
+OP: false
+
+
+Orignal Ques: Two Sum
+Variation: Three sum/ K sum etc
+
+
+Solutions:
+
+(1) Brute Force: O(N^2)
+(2) Sorting and Two Pointer: O(NlogN)
+(3) Hashing: O(N)
+
+
+
+(1) Brute Force:
+
+a + b == target
+
+
+boolean twosum(int[] arr, int target)
+{
+for (i=0; i<n; i++) // for a
+{
+    for (j=i+1; j<n; j++) // for b
+    {
+        if (arr[i] + arr[j] == target)
+            return true;
+    }
+}
+
+return false;
+}
+
+TC: O(N^2), 5 Passed, Rest TLE
+SC: O(1)
+
+
+
+(2) Sorting and Two Pointer:
+
+Sorting: O(NlogN)
+Two Pointer: O(N) - Sorted Values
+
+Final: O(NlogN)
+
+
+[5,4,3,2,1], target = 6
+OP: true
+
+
+Approach:
+(1) Sort the Array
+
+[5,4,3,2,1] --> [1,2,3,4,5]
+
+(2) Apply Two Pointer
+
+
+[1,2,3,4,5]
+
+left = 0 (index)
+right = 4 (n-1, index)
+
+
+left++;
+--> Left to Right
+--> Sum will increase
+
+right--;
+--> Right to Left
+--> Sum will decrease
+
+
+If curr_sum > target
+    right--;
+
+If curr_sum < target 
+    left++;   
+
+
+
+[1,2,3,4,5]
+
+left =0, right = 4
+
+arr[left] + arr[right] = 1+5 = 6 == target
+
+left++;
+left = 1
+
+arr[left] + arr[right] = 2 +5 = 7 > target
+
+curr_sum > target --> right--;
+
+right--;
+right = 3
+
+
+arr[left] + arr[right] = 2 + 4 = 6
+
+
+CODE:
+
+
+
+boolean twosum(int[] arr, int target)
+{
+Arrays.sort(arr); // O(NlogN)
+
+int left=0, right = arr.length-1;
+while (left<right)
+{
+    if (arr[left] + arr[right] == target)
+        return true;
+    else if (arr[left] + arr[right] < target)
+        left++;
+    else
+        right--;
+}
+
+return false;
+}
+
+TC: O(NlogN)
+SC: O(1)
+
+
+
+(3) Hashing: Set or Map
+
+
+
+a + b == target
+
+
+temp = b = target - a
+
+
+Approach:
+(1) Have "a" in hand
+(2) Check for "target-a" in Set/Map
+(3) If Exist, 
+return true
+(4) Else, 
+return false
+
+[1,2,3,4,5]
+target = 6
+
+a = 1, temp = target-a= 6-1=5
+
+OP: true
+
+
+CODE:
+
+[1,2,3,4,5]
+target = 6
+
+boolean twosum(int[] arr, int target)
+{
+Map<Integer, Integer> mp = new HashMap<>();
+
+for (i=0; i<arr.length; i++) // O(N)  i=0,1,2, 3
+{
+    int temp = target - arr[i]; // temp = 5 -> 4 -> 3 -> 2
+    
+    if (mp.containsKey(temp)) // O(1)
+    return true; // [2,1] i present
+    
+    else
+        mp.put(arr[i], i); // [1,0], [2,1], [3,2], [4,3], [5,4]
+        // Dry Run: [1,0], [2,1], [3,2],  
+}
+
+return false;
+}
+
+
+TC: O(N)
+SC: O(N) - HashMap
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+JS Code:
+
+arr2.sort(function(a,b){return a-b}); // Comparator
+- Ascending Order
+
+arr2.sort(function(a,b){return b-a}); // Comparator
+- Descending Order
+
+
+
+JAVA:
+
+class Pair
+{
+    int x; 
+    int y;
+}
+
+First Value of pair
+return p1.x-p2.x : ASCENDING
+return p2.x-p1.x : DESCENDING - ANS
+
+
+if (p1.x == p2.x) First value of pair are same, Descending Sort by Second Values
+    return p2.y-p1.y
+
+
+
+
+
+
