@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html> 
+
+<!-- 
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Tangerine">
+--->
+
+<link rel="stylesheet"
+href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<body>
+
+
+<ul>
+<li><a class="active" href="#">Home</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Careers</a></li>
+</ul>
+
+
+
+<h2> Drop Down Model With Button and Multiple Links </h2>
+
+<div class="dropdown">
+    <button class="dropbtn">Hover Over Me</button>
+    <div class="dropdown-content">
+    <a href="#.">Linkedin</a>
+    <a href="#.">Github</a>
+    <a href="#.">Medium</a>
+    </div>
+</div>
+    
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+<h2> First JS Code </h2>
+<button type="button" onclick='document.getElementById("demo").style.display="block"'>
+Click Me
+</button>
+
+<p id="demo" style="display:none">Initial 1</p>
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex-container">
+    <div style="flex-grow: 1">1</div>
+    <div style="flex-grow: 1">2</div>
+    <div style="flex-grow: 8">3</div>
+    <div style="flex-grow: 1">4</div>
+</div>
+
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<h3> Icons from Google</h3>
+<i class = "material-icons">cloud </i>
+<i class = "material-icons">computer </i>
+<i class = "material-icons">attachment </i>
+<i class = "material-icons">traffic </i>
+<i class = "material-icons">favorite </i>
+
+<h1 style="background-color:red;">Devang</h1>
+<h1 style="color:red;">Devang</h1>
+<h1 style="background-color:red; color:red;">Devang</h1>
+<h1 style="border:2px solid Violet;">Devang</h1>
+
+
+<h2> Forms </h2>
+
+<form action="/action/php">
+    
+<label for="fname"> First Name:</label> <br>
+<input type="text" id ="fname" name="fname" value="Devang"> <br>
+
+<label for="lname"> Last Name:</label> <br>
+<input type="text" id ="lname" name="lname" value="Sharma"> <br>
+<br>
+
+<input type="submit" value="Submit">
+</form>   
+
+<p> Click Submit -> data will be sent to /action.php</p>
+
+
+<style>
+
+.flex-container{
+display:flex;
+background-color: Dodgerblue;
+align-items:stretch;
+}
+
+.flex-container > div{
+background-color: white;
+margin: 10px;
+text-align:center;
+font-size: 30px;
+}
+
+
+
+
+.dropbtn{
+    border-radius: 25px;
+    background-color: Dodgerblue;
+    color:white;
+    padding: 10px;
+    font-size: 15px;
+    border:none;
+    cursor:pointer;
+}
+
+.dropdown{
+position: relative;
+}
+
+.dropdown-content{
+display:none;
+//background-color: green;
+padding: 5px 5px 5px 5px;
+position: absolute;
+}
+
+/*
+src:hover dest
+
+Class: .
+Id: #
+
+.A:hover .B
+#A:hover #B
+*/
+
+.dropdown-content a{
+    color: black;
+    text-decoration: none;
+    display:block;
+}
+
+.dropdown-content a:hover{
+background-color: yellow;
+}
+
+.dropdown:hover .dropdown-content{
+display:block;
+}
+
+.dropdown:hover .dropbtn{
+background-color: Dodgerblue;
+}
+
+
+table,th,td{
+    border: 1px solid red;
+    text-align: center;
+}
+
+body{
+    //background-color: lightblue;
+   //background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIdVo_UaGqUQrhmJyLbBiA8ftA6eFOpyPkCw&usqp=CAU"); 
+    //background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/4d845686128681.5d909dad4ddd3.jpg");
+   
+    background-repeat: no-repeat;
+//    background-position: right-top;
+    background-attachment: fixed;
+}
+
+h2{
+    text-align: center;
+}
+
+#p1{
+    color:red;
+    text-align:center;
+}
+
+.name{
+    color:red;
+    text-align:center;
+    background-color:yellow;
+}
+
+.p1{
+    font-family: "Times New Roman";
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.p2{
+    font-family: "Arial";
+    font-style: oblique;
+    text-decoration: line-through;;
+}
+
+.p3{
+    font-family: "Lucida Console";
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.p4{
+        font-family: 'Tangerine';
+}
+
+/*
+div{
+width: 200px;
+margin: 20px;
+border: 10px solid grey;
+padding: 20px;
+position: static;
+}
+*/
+
+div.fixed{
+    position: fixed;
+    top:0;
+    right:0;
+    color: grey;
+    background-color: yellow;
+    width : 100px;
+    border: 10px solid green;
+}
+
+#rcorner{
+border-radius: 25px;
+background: url();
+background: yellow;
+padding: 50px;
+width: 50px;
+height: 20px;
+}
+
+
+img{
+    float:right;
+    height:100px;
+    width:200px;
+}
+
+div{
+float: left;
+padding: 20px;
+}
+
+.div1{
+background: red;
+}
+
+.div2{
+background: yellow;
+}
+
+.div3{
+background: green;
+}
+
+ul{
+   list-style-type:none;
+   margin:0;
+   padding:0;
+//   position:fixed;
+  //background-color: yellow;
+}
+
+li{
+    display:inline;
+    padding: 10px;
+    margin: 10px;
+    background-color: yellow;
+    text-decoration: none;
+}
+
+.active{
+    background-color:green;
+}
+
+
+</style>
+
+
+
+<ul>
+<li><a href="">Home</a></li>
+<li><a href="">About Us</a></li>
+<li><a href="">Careers</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+<p id="rcorner"> Rounded Corner</p>
+
+<h2> Float Next to Each Other </h2>
+<div class = "div1"> First </div>
+<div class = "div2"> Second </div>
+<div class = "div3"> Third </div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+<p id ="para"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIdVo_UaGqUQrhmJyLbBiA8ftA6eFOpyPkCw&usqp=CAU"> 
+A paragraph is a self-contained unit of discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal
+</p>
+
+<br>
+<br>
+
+<div>This Explains the CSS Box Model</div>
+
+
+<div class="fixed">This Explains the Fixed Property</div>
+
+
+
+
+<p class="p1"> FONT </p>
+<p class="p2"> FONT </p>
+<p class="p3"> font </p>
+<p class="p4"> FONT </p>
+
+
+
+<h1 class="name"> Devang</h1>
+<h1 style="background-color:green; opacity:1.0;">Sharma</h1>
+
+
+<p class="name"> Hi There </p>
+
+
+<p id="p1"> Hi </p>
+<p> World</p>
+
+<h2>Table</h2>
+<table style ="width:100%">
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Organisation</th>
+        <th>Details</th>
+    </tr>
+    <tr>
+        <td>Devang</td>
+        <td>Sharma</td>
+        <td>Newton</td>
+        <td>School</td>
+    </tr>
+    <tr>
+        <td>Devang</td>
+        <td>Sharma</td>
+        <td>Newton</td>
+        <td>School</td>
+    </tr>
+</table>
+
+
+
+
+<h2>Lists</h2>
+<h3>Unordered Lists</h3>
+
+<ul>
+<li>Devang</li>
+<li>Sharma</li>
+<li>Mentor</li>
+</ul>
+
+<h3>Ordered Lists</h3>
+
+<ol>
+<li>Devang</li>
+<li>Sharma</li>
+<li>Mentor</li>
+</ol>
+
+<h3>Description Lists</h3>
+
+<dl>
+<dt>Devang</dt>
+<dd>- He is Mentor</dd>
+<dt>Sharma</dt>
+<dd>- He is Student</dd>
+</dl>
+
+
+
+<h2>Headers</h2>
+
+<h1>Hello World!</h1> 
+<h2>Hello World!</h2>
+<h3>Hello World!</h3>
+<h4>Hello World!</h4>
+<h5>Hello World!</h5>
+<h6>Hello World!</h6>
+
+<p>This is a paragraph.</p>
+
+<h2>Insert Link</h2>
+
+<a href="https://www.youtube.com/" target="_blank">Go To Youtube </a>
+
+<h2>Insert Image</h2>
+
+<button type="button" onclick='document.getElementById("image").src="https://images.pexels.com/photos/799443/pexels-photo-799443.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"'>
+Click Me
+</button>
+
+
+<img id="image" src="https://m.media-amazon.com/images/M/MV5BMGMyOThiMGUtYmFmZi00YWM0LWJiM2QtZGMwM2Q2ODE4MzhhXkEyXkFqcGdeQXVyMjc2Nzg5OTQ@._V1_.jpg" alt= "DrangonBallz" width="720" height="720" > 
+
+</body>
+</html>
+
