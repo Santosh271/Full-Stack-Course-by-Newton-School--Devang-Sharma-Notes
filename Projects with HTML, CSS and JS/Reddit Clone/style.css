@@ -40,6 +40,7 @@ header li:hover{
 }
 
 nav{
+    display:flex;
     justify-content: flex-start;
     align-items: flex-start;
     border-bottom: solid #5F99CF;
@@ -54,11 +55,17 @@ nav ul{
 }
 
 nav > div > ul > li{
+    justify-content: flex-start; 
     display: inline;
     font-weight: bold;
     font-size: 22px;
     font-family: verdana;
     background-color: #fbfbfb;
+    margin-left: .1em;
+    margin-right: .1em;
+    padding-left: .3em;
+    padding-right: .3em;
+
 }
 
 .user-profile{
@@ -72,11 +79,16 @@ nav > div > ul > li{
 }
 
 .user-profile ul{
-    float: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .user-profile li{
     display: inline;
     list-style-type:none;
     font-size: 20 px;
+    margin-left: .1em;
+    margin-right: .1em;
+    padding-left: .3em;
+    padding-right: .3em;
 }
