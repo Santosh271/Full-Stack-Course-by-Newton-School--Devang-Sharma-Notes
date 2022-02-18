@@ -30,3 +30,53 @@ header li:hover{
     background-color: cornflowerblue;
 }
 
+.reddit-pic{
+    height: 75px;
+}
+
+.grid-3{
+    display:flex;
+    background-color: #CEE3F8;
+}
+
+nav{
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-bottom: solid #5F99CF;
+    border-width: thick;
+    position: relative;
+}
+
+
+nav ul{
+    margin:0;
+    list-style-type: none;
+}
+
+nav > div > ul > li{
+    display: inline;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: verdana;
+    background-color: #fbfbfb;
+}
+
+.user-profile{
+    background-color: #fbfbfb;
+    color: #5F99CF;
+    border-top-left-radius: 5px;
+    float:right;
+    text-align:right;
+    padding-right: .3em;
+    margin-top: 30px;
+}
+
+.user-profile ul{
+    float: right;
+}
+
+.user-profile li{
+    display: inline;
+    list-style-type:none;
+    font-size: 20 px;
+}
