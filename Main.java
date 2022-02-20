@@ -11822,3 +11822,1048 @@ if (p1.x == p2.x) First value of pair are same, Descending Sort by Second Values
 
 
 
+Date : 14th February 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda : Project-1: Youtube Clone Using HTML, CSS and JS
+
+Features
+
+- Top bar with menu button, youtube logo, search box and user settings
+- Side bar menu with subscriptions list
+- Hamburger icon click replace side bar menu with simple bar menu
+- Main video section with most populars videos of each subscriptions channels
+
+TODO:
+- Github, Heroku/Netifly Account
+- Create Responsive Website and Host on Heroku/Netifly
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
+
+
+
+
+
+
+
+
+Project-1: Youtube Clone Using HTML, CSS and JS
+Project-2: Reddit Clone Using HTML, CSS and JS
+Project-3: Netflix Clone Using HTML, CSS and JS
+
+E2E Projects:
+- Create a Repo on Github
+- Push the Code
+- Host it Live
+
+
+heroku.com/devang/youtubeclone.com
+
+
+
+
+Weekdays: Web Development - HTML, CSS, JS, PROJECTS, Reactjs
+Weekends: DSA-2(Arraylists, Vectors, Linked Lists, Maps, Sets)
+
+DSA-3: DP, Backtracking, Trees, Graphs, CP
+
++ Assignment Questions
+
+
+
+
+
+Youtube Clone:
+
+Features
+
+- Top bar with menu button, youtube logo, search box and user settings
+- Side bar menu with subscriptions list
+- Hamburger icon click replace side bar menu with simple bar menu
+- Main video section with most populars videos of each subscriptions channels
+
+TODO:
+- Github- DONE
+- Heroku/Netifly Account- DONE
+- Create Responsive Website and Host on Heroku/Netifly
+
+
+(1) Github Account - DONE
+
+(2) New Repo: DONE
+
+(3) Name: Youtube Clone By [First Name]: DONE
+
+(4) Heroku Setup
+
+
+
+
+
+
+Date : 15th February 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda : Project-1: Youtube Clone Using HTML, CSS and JS
+
+Features
+
+- Top bar with menu button, youtube logo, search box and user settings
+- Side bar menu with subscriptions list
+- Hamburger icon click replace side bar menu with simple bar menu
+- Main video section with most populars videos of each subscriptions channels
+
+TODO:
+- Github, Heroku/Netifly Account
+- Create Responsive Website and Host on Heroku/Netifly
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
+
+
+
+
+
+
+
+
+
+TODO:
+- Github- DONE
+- Heroku/Netifly Account- DONE
+- Create Responsive Website and Host on Heroku/Netifly
+
+
+(1) Github Account - DONE
+
+(2) New Repo: DONE
+
+(3) Name: Youtube Clone By [First Name]: DONE
+
+(4) Heroku Setup
+
+
+
+
+
+
+
+
+Date : 17th February 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda : Project-2: Reddit Clone Using HTML, CSS and JS
+
+Features
+
+- Top bar with menu button, youtube logo, search box and user settings
+- Side bar menu with subscriptions list
+- Hamburger icon click replace side bar menu with simple bar menu
+- Main video section with most populars videos of each subscriptions channels
+
+TODO:
+- Github, Heroku/Netifly Account
+- Create Responsive Website and Host on Heroku/Netifly
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TODO:
+- Github- DONE
+- Heroku/Netifly Account- DONE
+- Create Responsive Website and Host on Heroku/Netifly
+
+
+(1) Github Account - DONE
+
+(2) New Repo: DONE
+
+(3) Name: Youtube Clone By [First Name]: DONE
+
+(4) Heroku Setup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+After Reddit:
+
+
+(1) Increase and Decrease : Upvote and Downvote
+
+- Reddit Clone
+
+(2) Calculate Total Number of Views on a Page
+
+On Page Load:
+display()
+{
+    ++count;
+}
+
+display();
+
+
+
+
+
+Steps:
+
+(1) Create New Repo - Reddit Clone By ___
+
+(2) Open Github Desktop, Get Repo to Local: Empty Folder
+
+(3) Open Folder in VS Code/Sublime
+
+(4) Create 3 Files:
+- index.html
+- script.js
+- style.css
+
+(5) Code
+
+
+
+
+
+Navbar:
+
+
+MY SUBREDDITS - HOME - ALL - RANDOM - USERS -
+
+(1) All Lists 
+
+HTML:
+
+<ul>
+
+<li>....
+<li>
+
+</ul>
+
+
+
+Make It Hortizontal: CSS
+    display: inline; // HORIZONTAL
+    display: block // VERTICAL
+
+Remove the Dots from li: CSS
+    list-style-type: none;   
+    OR 
+    list-style: none;
+
+
+(2) There is - between Lists
+
+HTML:
+
+<ul>
+
+<li>....
+<li> - </li>
+
+<li>
+
+</ul>
+
+
+(3) MY SUBREDDITS - Bold, Rest All - Normal
+
+<strong>__</strong>
+
+
+(4) Hover - Underline
+
+
+
+header li:hover{
+    text-decoration: underline;
+}
+
+
+(5) Hover - Bg Color:
+
+    background-color: cornflowerblue;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Date : 18th February 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda : Project-2: Reddit Clone Using HTML, CSS and JS
+
+Features
+
+- Top bar with menu button, youtube logo, search box and user settings
+- Side bar menu with subscriptions list
+- Hamburger icon click replace side bar menu with simple bar menu
+- Main video section with most populars videos of each subscriptions channels
+
+TODO:
+- Github, Heroku/Netifly Account
+- Create Responsive Website and Host on Heroku/Netifly
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
+
+
+
+
+
+Requirements for Division
+
+1 Div
+
+- Image - DONE
+- List 1 (Left), All Bold Items
+- List 2 (Right), Some Bold Items
+
+
+
+
+    <div>
+        <ul> : List -1 (LEFT)
+
+        </ul>
+
+        <ul>: List-2 (RIGHT) 
+            
+        </ul>
+    </div>
+
+
+
+Task: List-1 to the Left and List-2 to the Right
+
+Initial:
+a b c   d e f
+
+
+Final:
+a b c                                           d e f
+
+
+2 Approaches:
+
+
+HTML Code:
+<ul class ="l1">
+<ul class ="l2">
+
+
+(1) CSS:
+
+.l1{
+    float:left;
+}
+
+.l2{
+    float:right;
+}
+
+
+(2) flex:
+
+.l1{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.l2{
+    display:flex;
+    justify-content: flex-end;
+}
+
+
+(3) Common Space between the items
+
+.list{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+(4) Optimised Answer
+
+
+HTML:
+<ul>
+<ul class ="l2">
+
+
+CSS:
+
+.l2{
+    float:right;
+}
+
+
+
+
+   <div>
+        <ul> : List -1 (LEFT)
+        <li>Hot</li>
+        <li>New</li>
+        <li>Rising</li>
+        <li>Wiki</li>
+
+        </ul>
+
+        <ul>: List-2 (RIGHT) 
+            
+        </ul>
+    </div>
+
+
+hot new rising controversial top gilded wiki
+
+
+
+
+
+
+
+Functionality:
+
+
+
+(1) Arrow Up: Number Should Increase
+(2) Arrow Down: Number Should Decrease
+(3) A Number- Current Number
+
+
+
+
+
+<div class = "post-upvotes">
+    <div class="arrow-up">
+
+    </div>
+
+    <div id="votes">1000</div>
+
+    <div class="arrow-down">
+    
+    </div>
+
+</div>
+
+
+(1) arrow-up> onclick() -> votes> ++count
+(2) arrow-down> onclick() -> votes> --count
+
+
+
+
+
+
+
+
+Project:
+
+
+- A Button
+- An Upvote
+- A Doownvote
+
+
+
+PAGE:
+
+
+
+
+                    COUNT
+
+                Upvote: Button (Thumbs Up)
+
+                Donwvote: Button (Thumbs Down)
+
+
+
+
+Upvote: ++count
+Downvote: --count
+
+
+
+
+
+Date : 20th February 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda:
+
+Theory: 
+
+Hashing, Hash Function and Hash Table- DONE
+Real Life Applications- DONE
+Collision Avoidance Techniques- DONE
+
+
+Questions:
+
+Q: Count pairs with given sum- DONE
+Q: Count frequency of a character in a String- 
+Q: Detecting Cycle in a Linked List, using hashing-  
+Q: Detecting Cycle in a Linked List, without hashing- 
+Q: Distinct Numbers in Window - 
+Q: Stores with same items & different prices - 
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
+
+
+
+
+--> HASHING:
+
+
+Importance:
+
+Interview: Direct Implementation, Collision Avoidance, Internal Implemenmtation
+
+GATE/NET/JRF: 2-4 Ques on Hashing
+
+For any DS/Algo:
+
+- What (NEED/Use Case) 
+- Why (Application)
+- How (Coding/Implementation) - DONE
+
+
+WHY ?
+
+Applications:
+
+(1) Mailing Service: Gmail/Outlook etc
+
+
+username: user@gmail.com
+Password: devang
+
+
+
+{
+    user: devang
+}
+
+
+Flow:
+
+
+Browser ---PW (devang) -- HASHING (Encryption)--> Server ---- HASHING (Decryption) --> Verify ---> Log In Else Incorrect Password
+
+Will you pass your password as "devang" to server ?
+- NO, It can be Easily Hacked
+
+Inspect -> Network -> Fetch XHR
+
+{
+username:
+password:
+}
+
+
+Solution: 
+
+(1) At Client Side:
+Encryption/Hashing 
+
+devang --> &e98e3hdoir4urou98u09 + KEY
+
+(2) At Server Side:
+
+&e98e3hdoir4urou98u09 - KEY-> devang
+
+
+Hashing = Encryption + Decryption
+
+
+
+(2) Shortening URL Services
+
+bit.ly 
+tinyurl
+
+
+Long URL ---> Short URL
+
+
+(3) Cryptography
+
+Username/Password/Access Token --- Function ---> Encrypted Form
+
+
+Algos:
+
+SHA 256
+SHA 512
+RSA
+MD 5
+
+
+
+
+
+
+WHAT ?
+
+-> Arrays:
+- Similar Type of data types, Random Access
+- Fixed Size
+
+a[idx] - O(1)
+
+-> Linked Lists:
+- Dynamic Allocation
+- No Fixed Size
+
+-> Stacks 
+LIFO: Most Recently Used Element in O(1)
+
+-> Queues:
+FIFO: Least Recently Used Element in O(1)
+
+
+
+
+
+- ArrayList and Vectors:
+
+
+- Strings:
+
+
+"We DELIBERATELY Store Values in a PARTICULAR ORDER (Insertion/Deletion) to Solve Some Use Case"
+
+
+
+Hashing?
+
+Large Value --- > Hash Function ----> Small Value
+
+
+Use Case:
+
+Insertion: O(1)
+Search/Retrieval : O(1)
+
+
+O(1) -> NOT Depenedent Upon N
+
+Initially, N = 10 Items
+Time: 10 seconds
+
+O(1): N = 100: TC: 10 seconds
+O(N): N = 100: TC: 100 seconds
+O(N^2): N = 100: TC: 100^2 = 10000 seconds
+
+
+
+
+
+Task:
+
+Class:
+
+500 Students
+- Contact Numbers
+
+
+Requirements:
+(1) Insert a New Number : ASAP - O(1)
+(2) Search for any given number: ASAP - O(1)
+
+
+Solutions:
+
+
+Arrays:
+
+[1,2,5,4,3]
+
+Search: O(N)
+
+[1,2,3,4,5]
+
+Search: O(log N)
+
+Any Way I can do search in O(1) using Array ? - NO
+
+
+Linked List:
+
+Insertion: O(1)
+
+Search: O(N)
+
+
+Stacks:
+
+Insertion: O(1)
+Search: O(N)
+
+Queues:
+
+Insert: O(1)
+Search: O(N)
+
+Arraylist:
+
+Insert: O(1)
+Search: O(N)
+
+
+
+Requirements:
+(1) Insert a New Number : ASAP - O(1) - DONE
+(2) Search for any given number: ASAP - O(1) - DONE
+
+YES -- O(1)
+
+HASHING: YES
+
+
+A = [11,12,13,14,15]
+
+IP: hash(element) ---> hash value: OP
+
+hash() = val
+Use that val as Index in Hash Table for that Element
+
+h() = val % 10
+ans = A[i] % 10 = [1,2,3,4,5]
+
+
+Hash Table:
+
+0:
+1: 11
+2: 12
+3: 13
+4: 14
+5: 15
+
+
+Search:
+
+find(11)
+- Calculate hash value using hash function
+- Go to that hash value index in Hash Table
+
+
+h() = val % 10
+
+11 % 10 = 1    --- O(1)
+HT[1] --> 11   --- O(1)
+
+Total: O(1)
+
+
+
+Insert:
+
+insert(16)
+- Calculate hash value using hash function
+- Go to that hash value index in Hash Table and insert the element there
+
+
+h() = val % 10
+
+16 % 10 = 6 -- O(1)
+HT[6] = 16  -- O(1)
+
+Total: O(1)
+
+
+
+
+----> Good Hash Function
+
+(1) Efficiently Computable - Probably in O(1)
+
+Eg: val % 10 -- O(1) 
+val % 1000000 -- O(1)
+
+
+(2) Less Space:
+
+Eg: You have 100 Mn Values, It should NOT take Space for 100 Mn Values
+
+(3) Uniformly Distributed:
+
+100 Elements: Chances of getting into hash table should be equal for ALL Values
+
+
+
+DB Company:
+
+- Google Search
+- Yandex
+- Couch DB
+- Yugabyte
+
+
+Live Demo: DONE
+
+
+
+
+---> Collision And Its Avoidance Techniques:
+
+
+
+A = [11,12,13,14,15,22]
+
+h() = val % 10 = 0 to 9
+
+ans = A[i] % 10 = [1,2,3,4,5,2]
+
+Hash Table:
+
+0:
+1: 11
+2: 12
+3: 13
+4: 14
+5: 15
+6:
+7:
+8:
+9:
+
+Collision:
+- Two Or More Elements have same hash value 
+
+
+Use val % 100
+ans = [11,12,13,14,15,22]
+
+Hash Table:
+
+0 to 99
+
+Note: To Store 6 Values, I need array/hashtable of 100 Size
+
+
+Collision Avoidance/Resolution Techniques:
+
+(1) Separate Chaining/Open Addressing
+
+[11,12,13,14,15,22]
+h()= val % 10
+
+ans = [1,2,3,4,5,2]
+
+Hash Table:
+
+0: LL Record 
+1: LL Record 11
+2: LL Record 12 -> 22 -> 32 -> 42 -> 52
+3: LL Record 13
+4: LL Record 14
+5: LL Record 15
+
+
+
+
+Adv:
+- Removed Collision
+- Dynamic Allocation
+- No Limit in Size
+
+
+Disadv:
+- Search will become costly
+
+
+Eg:
+
+find(52)
+
+    52 % 10 = 2   -- O(1)
+    To go to 52: 12 -> 22 -> 32 -> 42 -> 52  O(N)
+
+    Total: O(N)
+
+
+
+(2) Linear Probing:
+
+"Occupy the Next Available Position"
+
+
+16, 26
+h() = val % 10
+
+Whatever the next place is empty/available in Hash Table, put the element there.
+
+
+Hash Table:
+
+0:
+1: 11
+2: 12
+3: 13
+4: 14
+5: 15
+6: 16
+7: 26
+8:
+9:
+
+Now, If I try to insert 27 ?
+
+27 % 10 = 7
+7 is already occupied
+
+Next available position = 8, 
+Hence, HT[8] = 27
+
+
+Hash Table:
+
+0:
+1: 11
+2: 12
+3: 13
+4: 14
+5: 15
+6: 16
+7: 26
+8: 27
+9:
+
+
+while()
+{
+    HT[idx] !=null
+    idx++;
+}
+
+
+HT[9] = null
+
+
+
+Adv:
+- Removed Collision
+
+Disadv:
+- Changed the Order of Hash Values
+
+
+search(26)
+
+    26 % 10 = 6
+    check(6) -> Not Found
+    else
+        checknext() --> 7,8,9........
+
+
+
+
+(3) Polynomial Probing
+
+Quadratic: h + i^2
+i: Number of Collision
+h: Hash Value
+
+
+Polymial: h + i^n
+
+
+
+Eg:
+
+Quadratic: h + i^2
+
+16, 26, 36, 96 and h() = val % 10
+
+
+
+For 16, i = 0, h = 6, 6 + 0*0 = 6, HT[6] = 16
+
+For 26, i = 1, h = 6, 6 + 1*1 = 7, HT[7] = 26
+
+For 36, i = 2, h = 6, 6 + 2*2 = 10, HT[10] = 36
+
+For 96, i = 3, h = 6, 6 + 3*3 = 15, HT[15] = 96
+
+For 17, i = 1, h = 7, 7 + 1*1 = 8, HT[8] = 17
+
+
+(4) Double Hashing:
+
+16, 26
+h() = val % 10
+
+
+h1() = val % 10
+h2() = h1() + val % 100
+
+
+16 = 6 -> 6 + 16 = 22 (No Collision)  
+26 = 6 -> 6 + 26 = 32
+
+22 = 2 -> 2 + 22 = 24
+32 = 2 -> 2 + 32 = 34
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
