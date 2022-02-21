@@ -12867,3 +12867,31 @@ h2() = h1() + val % 100
 
 
 
+Date : 21st February 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda : Project-2: Reddit Clone Using HTML, CSS and JS
+
+Features
+
+- Top bar with menu button, youtube logo, search box and user settings
+- Side bar menu with subscriptions list
+- Hamburger icon click replace side bar menu with simple bar menu
+- Main video section with most populars videos of each subscriptions channels
+
+TODO:
+- Github, Heroku/Netifly Account
+- Create Responsive Website and Host on Heroku/Netifly
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
+
+
+
+
+
+
+
+
+
+
