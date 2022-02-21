@@ -92,3 +92,48 @@ nav > div > ul > li{
     padding-left: .3em;
     padding-right: .3em;
 }
+
+
+/* Arrow */
+
+.post{
+display: flex;
+justify-content: flex-start;
+}
+
+.post-upvotes{
+    text-align: center;
+    font-size: 20px;
+    color:dodgerblue;
+}
+
+.arrow-up{
+    margin-top: 20px;
+    transform: rotate(-90deg);
+}
+
+
+.arrow-down{
+    transform: rotate(90deg);
+}
+
+
+
+/* POSTS */
+
+.post-body{
+    margin-left: 1em;
+    margin-top: 50px;
+}
+
+.submit-link{
+    text-decoration: none;
+}
+
+.post-options{
+    color: dodgerblue;
+    background-color: aquamarine;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
