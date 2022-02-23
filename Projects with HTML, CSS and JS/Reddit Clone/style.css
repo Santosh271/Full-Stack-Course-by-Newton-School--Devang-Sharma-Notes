@@ -141,8 +141,10 @@ justify-content: flex-start;
 
 .reddit-gold{
     margin-top: 2.5em;
+    float:right;
     text-align: center;
     border: solid rgb(219,209,181);
+    width: 80%;
 }
 
 .reddit-gold div{
@@ -187,9 +189,18 @@ font-weight: bold;
     color: #4682b4;
     border-radius: 5px;
     width: 100;
+    display: block;
 }
 
 .user-action-button:hover{
     background-color: #3A5ECA;
     color: white;
+}
+
+.main-class{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
