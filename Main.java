@@ -12895,3 +12895,146 @@ TODO:
 
 
 
+
+
+
+
+
+Date : 23rd February 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda : Project-2: Reddit Clone Using HTML, CSS and JS
+
+Completed Projects:
+
+(1) Youtube Clone with Home Page and Search API 
+(Development —> Hosting on Heroku)
+
+(2) Count and Display Like and Dislike Project on a Webpage
+(Development —> Hosting on Heroku)
+
+(3) Reddit Clone- TODAY - DONE
+
+TODO:
+- Netflix Clone- TODAY
+
+ Caraousel: USE
+
+- Caraousel Using CSS: NEXT
+
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
+
+
+UNDERSTANDING CARAOUSEL:
+
+Image/Video/Logo Sliding:
+
+(1) Automatic Sliding
+- Timer (Time After which image will slide)
+- Loop (Repeat or Not)
+- Hover: Stop
+
+(2) User Driven Sliding
+- Click (.)
+- Right/Left Arrow
+
+
+
+
+Using A Caraousel:
+
+- Use an External Caraousel in CSS and JS: Netflix
+- Create Caraousel from Scratch: Next
+
+
+
+
+
+
+
+
+
+
+
+IDEAS:
+
+(1) In Java: 
+- Year is Leap Year or Not
+
+Web Page:
+
+User will Enter A Year: FORM
+
+OP: Leap/Non-Leap
+
+
+(2) Date Validation
+
+(A) Date() in JS 
+(B) Without Date() in JS
+
+
+Web Page:
+User: Enter a Date
+OP: Valid/Non-Valid
+
+Eg: 31st June - Invalid
+29th Feb (In Non Leap Year) - Invalid
+
+
+(3) Date to Day Converter
+
+Web Page:
+
+Date:
+dd mm yyyy
+
+
+OP:
+Day of Week
+
+
+
+
+
+
+
+Date : 24th February 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda : Project-3: Netflix Clone Using HTML, CSS and JS
+
+Completed Projects:
+
+(1) Youtube Clone with Home Page and Search API 
+(Development —> Hosting on Heroku)
+
+(2) Count and Display Like and Dislike Project on a Webpage
+(Development —> Hosting on Heroku)
+
+(3) Reddit Clone with Like and Dislike Feature and Progress Bar
+(Development —> Hosting on Heroku)
+
+TODO:
+- Netflix Clone- TODAY
+ Caraousel: USE
+
+- Caraousel Using CSS: NEXT
+
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
+
+
+
+
+
+
+
+
+
+
+
+
