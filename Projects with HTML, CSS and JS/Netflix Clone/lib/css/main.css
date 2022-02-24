@@ -16,14 +16,15 @@ header .container{
     color: red;
 }
 
+/*
 # DOM MODEL:
 #        header
 #      container
 #    logo   nav
 #            a a a a
+*/
 
-
-header nav a{
+header nav a {
     text-decoration: none;
     color: #aaa;
     margin-right: 10px;
