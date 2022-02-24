@@ -12920,7 +12920,7 @@ TODO:
 
  Caraousel: USE
 
-- Caraousel Using CSS: NEXT
+- Create Caraousel from Scratch Using CSS: NEXT
 
 
 "Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
@@ -13021,7 +13021,7 @@ TODO:
 - Netflix Clone- TODAY
  Caraousel: USE
 
-- Caraousel Using CSS: NEXT
+- Create Caraousel from Scratch Using CSS: NEXT
 
 
 "Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
