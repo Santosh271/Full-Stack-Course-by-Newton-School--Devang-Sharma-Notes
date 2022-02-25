@@ -13063,3 +13063,22 @@ TODO:
 
 
 
+Completed:
+
+- Logo
+- Nav Bar
+- Bg Image
+- Gradient to Bg Image
+- Title 
+- Description
+- Button
+- Icons in Button
+
+TODO:
+- Button with Hover
+- Size of Button
+- BG of Button 
+
+
+
+
