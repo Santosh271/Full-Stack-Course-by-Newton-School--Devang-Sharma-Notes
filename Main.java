@@ -13032,6 +13032,31 @@ TODO:
 
 
 
+Date : 25th February 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda : Project-3: Netflix Clone Using HTML, CSS and JS
+
+Completed Projects:
+
+(1) Youtube Clone with Home Page and Search API 
+(Development —> Hosting on Heroku)
+
+(2) Count and Display Like and Dislike Project on a Webpage
+(Development —> Hosting on Heroku)
+
+(3) Reddit Clone with Like and Dislike Feature and Progress Bar
+(Development —> Hosting on Heroku)
+
+TODO:
+- Netflix Clone- TODAY
+ Caraousel: USE
+
+- Create Caraousel from Scratch Using CSS: NEXT
+
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
 
 
 
