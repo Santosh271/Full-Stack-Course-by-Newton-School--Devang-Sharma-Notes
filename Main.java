@@ -13073,11 +13073,32 @@ Completed:
 - Description
 - Button
 - Icons in Button
-
-TODO:
 - Button with Hover
 - Size of Button
 - BG of Button 
+
+
+
+
+Responsiveness:
+
+Behaviour of Website to Different Screen Sizes
+OR
+Self-Adjust
+
+General:
+
+0-600px: Phones/ Watches
+600-750px: Notepad
+750-1000px: PC/Mac
+1280px and Above: Large Plasma Screens
+
+
+
+
+
+
+
 
 
 
