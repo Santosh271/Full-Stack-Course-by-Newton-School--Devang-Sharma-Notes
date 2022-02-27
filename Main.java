@@ -10783,6 +10783,8 @@ int KthNodefromEnd(Node head, int K)
 
 
 Extra
+ Cycle in a Linked List - DONE (GOOGLE)
+
 Q: [Google]
 Given a Linked List, Check whether there is a Cycle or Not.
 
@@ -10827,6 +10829,9 @@ OP: No Cycle
              |_________|
 
 OP: true
+
+
+
 
 
 
@@ -12433,7 +12438,7 @@ tinyurl
 Long URL ---> Short URL
 
 
-(3) Cryptography
+(3) Cryptography/ Cyber Security
 
 Username/Password/Access Token --- Function ---> Encrypted Form
 
@@ -12484,7 +12489,7 @@ FIFO: Least Recently Used Element in O(1)
 
 Hashing?
 
-Large Value --- > Hash Function ----> Small Value
+Large Value ---> Hash Function ----> Small Value
 
 
 Use Case:
@@ -12493,7 +12498,7 @@ Insertion: O(1)
 Search/Retrieval : O(1)
 
 
-O(1) -> NOT Depenedent Upon N
+O(1) -> NOT Dependent Upon N
 
 Initially, N = 10 Items
 Time: 10 seconds
@@ -12572,8 +12577,9 @@ A = [11,12,13,14,15]
 
 IP: hash(element) ---> hash value: OP
 
-hash() = val
-Use that val as Index in Hash Table for that Element
+STEPS:
+(1) hash() = val
+(2) Use that val as Index in Hash Table for that Element
 
 h() = val % 10
 ans = A[i] % 10 = [1,2,3,4,5]
@@ -12690,7 +12696,7 @@ Hash Table:
 Note: To Store 6 Values, I need array/hashtable of 100 Size
 
 
-Collision Avoidance/Resolution Techniques:
+----> Collision Avoidance/Resolution Techniques:
 
 (1) Separate Chaining/Open Addressing
 
@@ -12720,6 +12726,10 @@ Adv:
 Disadv:
 - Search will become costly
 
+
+Note:
+Insertion: O(1)
+Search: O(N)
 
 Eg:
 
@@ -12855,7 +12865,11 @@ h2() = h1() + val % 100
 
 
 
+Note:
 
+Two Values Giving Collision with 1 Hash Function: Chances: x%
+
+Two Values Giving Collision with 2 Hash Function: Chances: 1 in a Million
 
 
 
@@ -13092,6 +13106,513 @@ General:
 600-750px: Notepad
 750-1000px: PC/Mac
 1280px and Above: Large Plasma Screens
+
+
+Next: 
+
+Caraousel
+
+
+
+
+
+
+
+
+Date : 27th February 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda:
+
+Theory: 
+
+Hashing, Hash Function and Hash Table- DONE
+Real Life Applications- DONE
+Collision Avoidance Techniques- DONE
+
+
+Questions:
+
+Q: Count pairs with given sum- 
+Q: Count frequency of a character in a String- 
+Q: Detecting Cycle in a Linked List, using hashing-  
+Q: Detecting Cycle in a Linked List, without hashing- 
+Q: Distinct Numbers in Window - 
+Q: Stores with same items & different prices - 
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
+
+
+
+
+a = "pqr"  --> 76876
+b = "pqr"  --> 76876
+
+Collision - YES
+
+
+a = 16, b = 16
+h() = val % 10
+
+
+a = 16, b = 16
+h() = ?
+
+Collision - YES
+
+NOTE:
+If Values are Same --> Hash Value/Hash Code will be Same for Any Hash Function.
+
+
+
+a.equals(b) : Check for Hash Code and Not String
+
+
+a  ---> 97
+b  ---> 98
+A  ---> 65
+a  ---> 97: SAME
+
+set = [a b A]
+
+
+
+Insert in SET:
+- Take Hash Value of the Element, Check if its already present in set
+2 Cases:
+(1) If Not present, 
+Just Insert
+(2) If Already Present,
+Do NOT INSERT
+
+
+
+
+
+--> SET:
+
+Code in JAVA:
+
+        // Create Hash Set
+        HashSet<String> set = new HashSet<String>();
+        set.add("one"); // Insert- O(1)
+        set.add("two");  //- OP, NO OVERWRITE
+        set.add("three");
+        set.add("two"); // Same HashCode as that of "two" - Not Inserted
+
+        // Print Hash Set
+        System.out.println("Hash Set: " + set); // [one two three]
+
+        // Print Size of Hash Set
+        System.out.println("Size of Hash Set: " + set.size()); //[3]
+
+        // Remove values from Hash Set
+        set.remove("three");
+
+        // Print Hash Set
+        System.out.println("Hash Set: " + set); // [one two ]
+
+        // Check if Hash Set contains a value
+        System.out.println("Contains: " + set.contains("two")); // Search- O(1)
+        
+
+
+Types of Set:
+
+
+(1) HashSet
+- ArrayList
+- No Order Maintained
+- O(1) - Best Case
+- O(N) - Worst Case
+
+(2) LinkedHashSet
+- Linked Lists
+- Order Maintained
+- O(1) - Best Case
+- O(N) - Worst Case
+
+
+(3) TreeSet
+- Red balck Trees
+- Sorted Order
+- O(1) - Best Case
+- O(log N) - Worst Case
+
+
+a[] = {1,5,3,4,2,1}
+
+HashSet = [1 2 3 4 5] or [3 2 1 4 5] or anything
+
+LinkedHashSet = [1 5 3 4 2]
+
+Treeset = [1 2 3 4 5]
+
+
+
+
+
+
+
+
+
+
+
+--> MAP
+
+
+Key: Value Pair
+
+
+
+JSON Structure
+
+{
+    Name:"Devang",
+    Constact_Nos: [1,2,3,4,5....],
+    ...
+}
+
+
+
+
+
+
+Code in JAVA:
+
+
+       // Create Hash Map
+        HashMap<String, String> map = new HashMap<String, String>();
+        
+        map.put("1", "one");
+        map.put("2", "two");
+        map.put("3", "three");
+        map.put("4", "four");
+        map.put("4", "five"); // OVERWRITE
+        map.put("5", "four");
+
+        //Print Hash Map
+        System.out.println("Hash Map: " + map);
+
+        // Print Size of Hash Map
+        System.out.println("Size of Hash Map: " + map.size());
+
+        // Check if Hash Map is Empty
+        System.out.println("Is Hash Map Empty? " + map.isEmpty()); // false
+
+        // Check if Hash Map contains a Key
+        System.out.println("Contains Key 1? " + map.containsKey("1")); // true
+
+        // Check if Hash Map contains a Value
+        System.out.println("Contains Value four? " + map.containsValue("four")); // true
+         
+        // Get Value from Hash Map
+        System.out.println("Value for Key 1: " + map.get("1")); // one
+
+        // Remove Key from Hash Map
+        map.remove("1");
+        
+        //Print Hash Map
+        System.out.println("Hash Map: " + map);
+
+
+
+
+Types of HashMap:
+
+(1) HashMap
+- ArrayList
+- No Order Maintained
+- O(1) - Best Case
+- O(N) - Worst Case
+
+(2) LinkedHashMap
+- Linked Lists
+- Order Maintained
+- O(1) - Best Case
+- O(N) - Worst Case
+
+
+(3) TreeMap
+- Red balck Trees
+- Sorted Order
+- O(1) - Best Case
+- O(log N) - Worst Case
+
+
+
+
+
+Questions:
+
+Q: Count pairs with given sum- DONE
+Q: Count frequency of a character in a String- 
+Q: Detecting Cycle in a Linked List, using hashing-  DONE
+Q: Detecting Cycle in a Linked List, without hashing-  DONE
+Q: Distinct Numbers in Window - 
+Q: Stores with same items & different prices - 
+
+
+
+
+
+
+
+
+Q: [Google]
+Given a Linked List, Check whether there is a Cycle or Not.
+
+Cycle is also called Loop in a Linked List
+
+
+Cycle -> A Node is visited More than once while traversing the Linked List
+
+
+
+Edge Cases:
+
+head: 1 -> 2 -> NULL
+
+OP: false
+
+
+head: 1 -> 2 -> 3 -> 4 -> 5
+          /|\             |
+           |              |
+           |______________|
+
+
+OP: true
+
+Traverse:
+
+1 2 3 4 5 2 3 4 5 2 3 4 5 2 3 4 5...........
+
+OP: TLE
+
+
+(3) LL: 1 -> 2 -> 3 -> 4 -> 5 -> 2 -> NULL 
+
+OP: false
+
+(4) 2 -> 2 -> 2 -> 2 -> null
+
+OP: No Cycle
+
+(5) LL: 1 -> 2 -> 3 -> 4
+             |_________|
+
+OP: true
+
+
+
+
+
+
+Solution:
+
+INCORRECT:
+
+if (node.next!=null)
+    return true;
+else
+    return false;
+
+OP:
+
+1 2 3 4 2 3 4 2 3 4.......
+TLE
+
+
+
+Without Hashing:
+
+Track: 400 M- Circular
+
+A: 10 km/h, B: 20 Km/h
+
+
+If in time 't', A covers 1 lap.
+How much lap will B cover ?
+
+
+Ans: 2 Laps
+
+
+Circular Track:
+A will meet B when B has already covered 1 lap.
+
+Parallel Track:
+A and B will never meet
+
+
+
+Approach:
+
+- slow, fast -> head
+- slow: x, fast: 2x
+- if slow == fast: CYCLE
+- else, No Cycle
+
+TC: O(N)
+SC: O(1)
+
+
+
+CODE:
+
+    public boolean hasCycle(ListNode head) {
+    
+    if (head == null)
+        return false;
+        
+     ListNode slow= head;   
+     ListNode fast= head;   
+        
+    while (fast.next!=null && fast.next.next!=null)
+    {
+        slow = slow.next; // x speed
+        fast = fast.next.next; //2*x speed
+            
+        if (slow == fast)
+            return true; // There is a Cycle
+        
+    }
+        
+        return false; // No Cycle
+    }
+
+
+TC: O(N)
+SC: O(1)
+
+
+
+
+
+
+
+With Hashing:
+
+Approach:
+- Insert Node in Set
+- Check If Node is Repeated or Not (s.contains(node))
+
+CODE:
+
+    public boolean hasCycle(ListNode head) {
+        if (head == null)
+            return false;
+
+        HashSet<ListNode> s = new HashSet<ListNode>();
+        
+        while(head!=null)
+        {
+        if (s.contains(head)) // Node Already Contained --> Cycle
+            return true;
+
+        s.add(head);
+        head = head.next;
+        }
+
+        return false; // No Cycle
+    }
+
+
+(5) LL: 1 -> 2 -> 3 -> 4
+             |_________|
+
+OP: true
+
+
+
+
+
+
+
+Q: [JPMC, GS, Paypal, Adobe] Distinct Numbers in Window 
+
+
+
+
+You are given an array of N integers, A1, A2 ,…, AN and an integer K. 
+Return the of count of distinct numbers in all windows of size K.
+
+Formally, return an array of size N-K+1 where i’th element in this array contains number of distinct elements in sequence Ai, Ai+1 ,…, Ai+k-1.
+
+Note: If K > N, return empty array.
+
+Input :
+A = [1, 2, 1, 3, 4, 3]
+K = 3
+
+Output :
+[2, 3, 3, 2]
+
+Explanation
+All windows of size K are
+[1, 2, 1]
+[2, 1, 3]
+[1, 3, 4]
+[3, 4, 3]
+
+
+
+Solution:
+
+
+N Numbers, Windows of Size K.
+
+Total Number of Sliding Windows = N-K+1
+
+
+NCK
+N/K: Independet Windows
+N-K
+
+
+A = [1, 2, 1, 3, 4, 3]
+K = 3
+
+
+N = 6
+K = 3
+
+Total Sliding Windows = 6-3+1 = 4
+
+
+Sliding Windows:
+
+[1 2 1]: 2
+[2 1 3]: 3
+[1 3 4]: 3
+[3 4 3]: 2
+
+
+OP: [2 3 3 2]
+
+
+[1 2 1] - Insert in Set
+
+set = [1 2]
+set.size() = 2
+
+
+Approach:
+
+(1) Create N-K+1 Sliding Windows
+(2) Put Values in Sliding Windows and Print set.size()
+
+
+
+
+
+
+
+
+
+
 
 
 

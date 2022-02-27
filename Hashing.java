@@ -18,6 +18,9 @@ public class Hashing {
         map.put("4", "five"); // OVERWRITE
         map.put("5", "four");
 
+        //Print Hash Map
+        System.out.println("Hash Map: " + map);
+
         // Print Size of Hash Map
         System.out.println("Size of Hash Map: " + map.size());
 
@@ -30,39 +33,42 @@ public class Hashing {
         // Check if Hash Map contains a Value
         System.out.println("Contains Value four? " + map.containsValue("four")); // true
          
-        //Print Hash Map
-        System.out.println("Hash Map: " + map);
-
         // Get Value from Hash Map
         System.out.println("Value for Key 1: " + map.get("1")); // one
 
+        // Remove Key from Hash Map
+        map.remove("1");
+        
+        //Print Hash Map
+        System.out.println("Hash Map: " + map);
 
+
+
+        /*
 
         // Create Hash Set
         HashSet<String> set = new HashSet<String>();
         set.add("one"); // Insert- O(1)
         set.add("two");  //- OP, NO OVERWRITE
         set.add("three");
-        set.add("two");
+        set.add("two"); // Same HashCode as that of "two" - Not Inserted
 
         // Print Hash Set
-        System.out.println("Hash Set: " + set);
+        System.out.println("Hash Set: " + set); // [one two three]
 
         // Print Size of Hash Set
-        System.out.println("Size of Hash Set: " + set.size());
+        System.out.println("Size of Hash Set: " + set.size()); //[3]
 
         // Remove values from Hash Set
         set.remove("three");
 
         // Print Hash Set
-        System.out.println("Hash Set: " + set);
-
-        // Print Hash Code of Value
-        System.out.println("Hash Code of Value: " + set.hashCode());
+        System.out.println("Hash Set: " + set); // [one two ]
 
         // Check if Hash Set contains a value
         System.out.println("Contains: " + set.contains("two")); // Search- O(1)
         
+        */
 
 
 
