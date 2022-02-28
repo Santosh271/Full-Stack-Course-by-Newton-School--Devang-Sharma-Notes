@@ -1,0 +1,96 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../../../Downloads/envcheck"
+		},
+		{
+			"path": "../../../../../Edyst-Classes"
+		},
+		{
+			"path": "../../../../../CP-Course-TechElite-India"
+		},
+		{
+			"path": "../../../../../../CircleInterview-master"
+		},
+		{
+			"path": "../../../../../FAANG-Solver-Devang-Sharma"
+		},
+		{
+			"path": "../../../../../../../go/src/bitbucket.org/grabpay/product-flow-orchestrator"
+		},
+		{
+			"path": "../../../../../../../go/src/bitbucket.org/grabpay/xm-view"
+		},
+		{
+			"path": "../../../../../../../go/src/bitbucket.org/grabpay/moneyball-azkaban"
+		},
+		{
+			"path": "../../../../../../../go/src/bitbucket.org/grabpay/web-kit"
+		},
+		{
+			"path": "../../../../../../../go/src/bitbucket.org/grabpay/lending-agent"
+		},
+		{
+			"path": "../../../../../../../go/src/bitbucket.org/grabpay/xm-api"
+		},
+		{
+			"path": "../../../../../Spotify-Clone-By-Devang-Sharma"
+		},
+		{
+			"path": "../../../../../../../Downloads/Covid19-web-app-master"
+		},
+		{
+			"path": "../../../../../../../Downloads/mikhail-dvorkin competitions 85af608a6b6f02f6fb384b7011e41bc58301abf4 marathons-topcoder_phraseGuessing"
+		},
+		{
+			"path": "../../../../../../../Downloads/speaking-clock-exercise"
+		},
+		{
+			"path": "../../../Youtube Clone"
+		},
+		{
+			"path": "../../../../../Edyst-Classes/Newton School Classes/HTML, CSS and JS Projects"
+		},
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../Instagram-Clone-Using-MERN-Bu-Devang"
+		},
+		{
+			"path": "../../../../../NS-Instagram Clone/instagram-clone-by-devang"
+		},
+		{
+			"path": "../../../../../instagram-clone-by-devang"
+		},
+		{
+			"path": "../../../../../../../Downloads/cs354-946eefc45d94e0d461627977f857207d3bbe7980"
+		},
+		{
+			"path": "../../../../../../../Downloads/speaking-clock-master"
+		},
+		{
+			"path": "../../../../../Hashcode/2022"
+		},
+		{
+			"path": "../../../../../hashcode2022"
+		},
+		{
+			"path": "../../../../../HashCode2022Py"
+		},
+		{
+			"path": "../../../../../HashCodeIIT"
+		},
+		{
+			"path": "../../../../../margit-bonilla/MentorshipAndTeamwork"
+		},
+		{
+			"path": "../../../../../Bright Networks Demo"
+		}
+	],
+	"settings": {
+		"java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx8G -Xms100m",
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.multiRootWorkspaceName": "Full-Stack-Course-by-Newton-School--Devang-Sharma-Notes"
+	}
+}

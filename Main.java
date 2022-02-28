@@ -13736,7 +13736,71 @@ Structure of Caraousel:
 
         </div>
 
-        
+
+
+
+
+
+
+---> 3D Caraousel Using Materalize CSS
+
+
+
+
+Materalize CSS: Library Developed by Google
+
+
+Features:
+- Responsive
+- Browser-Independent
+- Open Source
+- Can be Integrated with Jquery and JS
+- Free to Use
+
+
+
+Github Repo:
+
+3D Caraousel by __:
+
+index.html
+index.js
+
+
+HTML:
+
+
+CSS:
+
+
+JS:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
