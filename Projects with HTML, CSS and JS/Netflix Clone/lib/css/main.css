@@ -38,7 +38,7 @@ header nav a:hover{
 .film-principal{
     font-size: 16px;
     background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5) 100%),url("../img/bg.jpg");
-     height: 60vh; 
+     height: 50vh; 
      display: flex;
      flex-direction: column;
      justify-content: center;
@@ -78,4 +78,18 @@ header nav a:hover{
 
 .film-principal .container{
     width: 70%;
+}
+
+
+.box-film{
+    height: 40vh;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    display: flex;
+    flex: row;
+}
+
+.carousel-films{
+    margin-top: 5px;
 }

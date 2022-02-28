@@ -13624,3 +13624,140 @@ Approach:
 
 
 
+Date : 28th February 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda : Project-3: Netflix Clone Using HTML, CSS and JS
+
+Completed Projects:
+
+(1) Youtube Clone with Home Page and Search API 
+(Development —> Hosting on Heroku)
+
+(2) Count and Display Like and Dislike Project on a Webpage
+(Development —> Hosting on Heroku)
+
+(3) Reddit Clone with Like and Dislike Feature and Progress Bar
+(Development —> Hosting on Heroku)
+
+TODO:
+- Netflix Clone- TODAY
+ Caraousel: USE
+
+- Create Caraousel from Scratch Using CSS: NEXT
+
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
+
+
+
+
+
+
+Completed:
+
+- Logo
+- Nav Bar
+- Bg Image
+- Gradient to Bg Image
+- Title 
+- Description
+- Button
+- Icons in Button
+- Button with Hover
+- Size of Button
+- BG of Button 
+
+
+
+
+Responsiveness:
+
+Behaviour of Website to Different Screen Sizes
+OR
+Self-Adjust
+
+General:
+
+0-600px: Phones/ Watches
+600-750px: Notepad
+750-1000px: PC/Mac
+1280px and Above: Large Plasma Screens
+
+
+Next: 
+
+Caraousel
+
+
+
+
+
+Structure of Caraousel:
+
+
+
+<div class="carousel-films">
+    <div class="owl-carousel owl-theme">
+
+    <div class="item">
+    
+        </div>
+
+        <div class="item">
+    
+        </div>
+
+        <div class="item">
+    
+        </div>
+
+        <div class="item">
+    
+        </div>
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+---> Structure of item:
+
+
+
+    <div class="item">
+        <img class="box-film" src="" alt=""/>
+
+        </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
