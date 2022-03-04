@@ -349,9 +349,12 @@ Javascript Extension
 JSX = JS + HTML
 
 
-HTML, class=""
+HTML, class="c1"
 
-JSX, className=""
+JSX, className="c1"
+
+
+
 
 Both HTML and JS Supported
 
@@ -360,9 +363,7 @@ Both HTML and JS Supported
 
 
 let pname="Devang";
-
-
- <div>{devang}</div> - JS
+ <div>{pname}</div> - JS
 
 
 
@@ -386,7 +387,7 @@ No ERROR
 
 
 Note:
-Expected a Wrapper Around Return.
+Expected a Wrapper Around Returned Root Component.
 
 Plain HTML/JS Return --> Error
 
@@ -401,7 +402,6 @@ HTML/CSS/JS:
 (1) YT Clone
 (2) Reddit Clone
 (3) Counter App
-
 (4) Netflix Clone
 (5) Portfolio - Caraousel of All Projects
 
@@ -420,18 +420,31 @@ Repo --> Change --> Live
 
 Single Page Application
 
+Home: Root
+Other Components: Child
 
 Home ---> Footer --> Nav
 
 
 Page Will Not Be Refreshed After Moving to Other Page
 
+Root -> Child
+
 (1) No Cursor Moving
 (2) Right Click --> Page Source Will Not Change After Clicking to Another Nav Bar
 
 
+Example:
+
+Gmail Application
 
 
+(1) Open Gmail: Reload
+
+(2) Enter Gmail: 
+Inbox -> Primary: No Refresh
+
+Right Click --> Page Source Will Not Change After Clicking to Another Nav Bar
 
 
 
@@ -471,11 +484,33 @@ Project:
 - Bootstrap
 - VS Code Extensions
 - React Bootstrap
+- Named Export Vs Default Export
 
 "Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
 "We Will Start immediately After Every one has joined the session"
 
 
+
+
+
+Definition of Bootstrap:
+
+Use Cases of Bootstrap:
+
+Installing Bootstrap
+
+Website: https://getbootstrap.com/
+Command: npm install bootstrap
+
+
+
+
+Use Boootstrap Nav Bar in React Project
+
+HTML, JS ---> JSX
+
+class --> className
+For Non Closing Tags, Add "/" to End
 
 
 
