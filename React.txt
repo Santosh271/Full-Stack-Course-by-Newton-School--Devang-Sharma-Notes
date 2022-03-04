@@ -1,0 +1,487 @@
+Date : 1st March 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda : Intro to React
+
+
+TODO:
+- What is React
+- Compnonents
+- State
+- Render
+
+Installing React
+- NPM
+- React
+
+Project: 
+- Basic Shopping Cart
+- Spotify Demo
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
+
+
+
+TODO:
+
+- Netflix Clone
+- Portfolio Website (All Projects in 1 Page)
+
+
+- Google Form: Response Till Sunday
+
+
+
+Vue, Angular: Framework
+
+REACT:
+
+- Javascript Library
+- Used for Building Fast and Interactive User Interfaces
+- Facebook (Meta) developed in 2011
+
+Library vs Framework:
+
+
+Framework:
+- Library: UI Components
+- Routes
+- DB Routes
+
+
+
+React:
+Library: UI Components, Render(Display)
+
+- Interactive UI
+- Fast
+
+
+
+
+Routes: HTTP/HTTPS/SOAP/GRPC
+Database Routes: Cassandra/MongoDB/Postgres
+
+
+
+
+
+Practical Example:
+
+
+
+Room:
+
+Hall:
+Kitchen:
+Washroom:
+Washing Machine:
+
+
+
+1 BHK = Room + Utilities
+
+BHK : Framework
+Room: Library
+Utilities: Routes
+
+
+Framework = Library + Utility
+
+
+
+
+
+
+
+Routes: HTTP/HTTPS/SOAP/GRPC
+
+Practical Example:
+
+Net Banking:
+
+
+Check Balance:
+
+Click Button --> API Call ---> Bank Server --> Fetch the Latest Balance --> Render in UI
+
+Response:
+
+{
+    amount: 10M,
+    timestamp: 2022-03-01-04:12PM --> 202203010412,
+}
+
+
+Screen:
+
+Amount: 10M
+
+
+
+
+
+
+User:
+
+(1) Search: Jacket
+
+Code ?
+
+(2) Search: Black Jacket
+
+Code?
+
+
+OP of 2 == Subset of OP 1
+
+Solution:
+
+Filtering
+
+
+OP:1
+
+{
+jac-1: {white}
+jac-2: {black}
+jac-3: {green}
+}
+
+
+
+OP:2
+
+{
+jac-2: {black}
+}
+
+
+SELECT JACKETS FROM CLOTH WHERE COLOR='BLACK';
+
+
+
+
+- React
+- Framework vs Library
+- Routes
+- FrontEnd/Client
+- Backend/Server
+- API
+- Tech Stack for Web
+- Tech Stack for Mobile Devices
+
+
+
+
+
+
+
+---> React Components:
+
+
+React Application is combination of Components
+
+Component: Piece of UI which will be independent, resuable and isloated in React Application
+
+Combined Components --> React Application
+
+
+Note:
+React Application has atleast 1 Component --> Root
+(App.js)
+
+All Other Components are Child Components
+
+
+
+
+Hierarchy:
+
+                              Root
+                 Component-1     Component-2   Component-3 
+                Component-1_1        
+
+
+
+
+Practical Example:
+
+Twitter:
+
+
+Home Page: Root
+- Profile
+- Feed
+ - Tweet
+ - Likes
+ - Comments
+ - Retweets
+
+
+- Trending
+- HashTags
+- News
+
+
+
+Hierarchy:
+
+                                Home Page - Root
+                    Profile         Feed        Trending            
+                                  Tweet Likes  
+
+
+
+---> Install React
+
+
+
+
+-> Install Node and Npm (Node Package Manager) in your System - DONE
+(nodejs.org/en/download)
+
+-> Check With: node -v and npm -v
+
+-> Diff between npm create and npx create
+
+-> Steps:
+
+(1) npm install -g create-react-app
+(2) npx create-react-app first-app-devang
+(3) cd first-app-devang
+(4) npm start
+
+
+
+
+
+
+
+
+
+
+
+
+Date : 2nd March 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda : Intro to React
+
+
+TODO:
+- State
+- Render
+
+-> Deep Dive Into First React Application: DONE
+-> JSX: DONE
+-> SPA and Inspect Element
+
+Installing React
+- NPM
+- React
+
+Project: 
+- Todo List App Using Bootstrap
+- Basic Shopping Cart
+- Spotify Demo
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
+
+
+
+
+
+(1) 
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.1.217:3000
+
+
+  Local: LocalHost --> PC
+  Network: Any Device Connected Over Same Network - Mobile/Tab/Watch/Screen
+
+
+
+(2) Public:
+Details Available to Public
+
+- Favicon
+- Index.html
+
+
+(3) Why No Refresh after Change ?
+
+Running a Live Development Server
+
+
+(4) Remove Comments from HTML and See Page Source
+
+Complete Page is supported by Small Piece of Code, 2 Things:
+- div: root --> Complete Code on Body
+
+Index.js --> root--> App.js
+
+Delete this --> Body will be Empty
+
+
+
+(5) logo 192:
+192x192 px
+
+(6) logo 512
+512x512 px
+
+
+
+
+
+
+
+
+
+JSX:
+
+
+Javascript Extension
+
+JSX = JS + HTML
+
+
+HTML, class=""
+
+JSX, className=""
+
+Both HTML and JS Supported
+
+ <p>Hey, Its My React App</p> - HTML
+ <div>{20+20}</div> - JS
+
+
+let pname="Devang";
+
+
+ <div>{devang}</div> - JS
+
+
+
+
+ERROR:
+
+return (
+    <h2>React App</h2>
+  );
+
+
+
+No ERROR
+    
+    return (
+    <>
+    <h2>React App</h2>
+    </>
+  );
+
+
+
+Note:
+Expected a Wrapper Around Return.
+
+Plain HTML/JS Return --> Error
+
+
+
+
+
+
+
+HTML/CSS/JS:
+
+(1) YT Clone
+(2) Reddit Clone
+(3) Counter App
+
+(4) Netflix Clone
+(5) Portfolio - Caraousel of All Projects
+
+
+
+Github -> Repo -> Deployed
+
+Repo --> Change --> Live
+
+
+
+
+
+-> SPA and Inspect Element
+
+
+Single Page Application
+
+
+Home ---> Footer --> Nav
+
+
+Page Will Not Be Refreshed After Moving to Other Page
+
+(1) No Cursor Moving
+(2) Right Click --> Page Source Will Not Change After Clicking to Another Nav Bar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Date : 4th March 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda : Intro to React
+
+
+-> Deep Dive Into First React Application: DONE
+-> JSX: DONE
+-> SPA and Inspect Element: DONE
+
+Installing React: DONE
+- NPM: DONE
+- React: DONE
+
+Project: 
+
+- Todo List App Using Bootstrap
+- Bootstrap
+- VS Code Extensions
+- React Bootstrap
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
+
+
+
+
+
+
+
+
+
+
+
