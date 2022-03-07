@@ -5,7 +5,7 @@ import {Footer} from './Components/Footer';
 function App() {
   return (
     <>
-      <Header/>
+      <Header title="Devang Todos"/>
       <Footer/>
     </>
   );
