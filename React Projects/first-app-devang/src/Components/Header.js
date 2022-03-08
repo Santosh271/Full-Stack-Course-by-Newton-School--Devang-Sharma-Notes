@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 export default function Header(props) {
   return (
@@ -21,4 +22,14 @@ export default function Header(props) {
   </div>
 </nav> 
  )
+}
+
+// Adding Default Prop for Title
+Header.defaultProps = {
+  title: "Default Title"
+}
+
+// Strict Checking that Title Must be a String
+Header.propTypes = {
+  title: PropTypes.string.isRequired
 }
