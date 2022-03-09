@@ -24,12 +24,18 @@ function App() {
       desc:"Learn Flutter from scratch",
     }
   ]
+
+  const onDelete = () =>{
+    console.log("I am Delete");
+  }
+
+  let empty=[]
   
   return (
     <>
       <Header title="Devang Todos"/>
       <About/>
-      <Todo todolist={todolist}/>
+      <Todo todolist={todolist} onDelete={onDelete}/>
       <Footer/>
     </>
   );

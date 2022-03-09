@@ -3,18 +3,27 @@ import {TodoItem} from "./TodoItem"
 
 
 export const Todo = (props) => {
+
+    let style={
+      minHeight: "90vh",
+      margin: "50px auto",
+      marginLeft: "50px"
+  }
+
+
+
   return (
-      <>
-    <h2 className="text-center">Todo List</h2>
+      <div style={style}>
 
-    <h2>{props.todolist.length}</h2>
+    <h2 className="text-center my-3">Todo List</h2>
 
-    {props.todolist.map((todo)=>{
+    {props.todolist.length === 0 ? "No Todos to display" :
+    props.todolist.map((todo)=>{
       console.log(todo.sno);
-        return (<TodoItem todo={todo}/>
+        return (<TodoItem todo={todo} key={todo.sno} onDelete={props.onDelete}/>
         )})}
 
-    </>
+    </div>
   )
 }
 
