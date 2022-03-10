@@ -13779,3 +13779,483 @@ JS:
 
 
 
+Date : 6th March 2022
+Mentor: DEVANG SHARMA
+Batch: November Batch - 4 and 5
+Agenda : DSA-2
+
+Dynamic Programming (DP)
+
+"Please Type 'Hi' in the Chat Box if you have joined and Can See this Screen".
+"We Will Start immediately After Every one has joined the session"
+
+
+DS:
+
+Arrays
+2D Arrays
+Linked Lists
+Maps
+Sets
+Bit Manipulation (Paypal)
+
+Algo:
+
+Linear Search
+Binary Search
+Two Pointer
+Prefix Sums
+Recursion
+
+- Dynamic Progrmming
+
+
+
+
+20%
+
+- DP
+- Backtracking
+- Trees
+- Graphs
+
+
+Agenda:
+
+DYNAMIC PROGRAMMING (DP): 1-10
+
+
+Average: 1
+
+
+Target: End of Class: 8-9
+Reached: 7-8
+
+Teacher (1-10): 9-10
+
+Recursion: (1-10)
+8-9
+
+
+
+
+For Any DS/Algo:
+- What (NEED/Problem)
+- Why (Applicatoions)
+- How (Coding/Implementation)
+
+
+What ?
+- Optimisation Over Recursion By "Storing the Results"
+
+Why ?
+Exponential Time ----> Polynomial Time Complexity (Linear/Quadratic)
+
+
+
+State Variables: Determines the Order of DP
+
+
+1-D DP: State Depends on 1 Variable
+Eg: Fibonacci Number
+
+
+2-D DP: State Depends on 2 Variable
+Eg: 0-1 Knapsack/ Matrix Question
+
+
+3-D DP: State Depends on 3 Variable
+Eg: House of Robber-2/3 LC Premium
+
+
+
+Fibonacci Series:
+
+0 1 1 2 3 5 8 13.....
+
+fib(n) = fib(n-1) + fib(n-2)
+
+Take N = 5
+
+fib(5) = fib(4) + fib(3) = 2 + 1 = 3
+fib(4) = fib(3) + fib(2)
+fib(3) = fib(2) + fib(1)
+
+........................
+
+
+
+
+TREE DIAGRAM:
+
+
+                        5 - YOU : x+y+x = 2*x+y
+               (x+y)4         3(x) 
+                (x)3  2(y)  2  1 
+                 2 1  1 0  1 0 
+GROUND          1 0 
+
+
+
+Two Brothers:
+
+(1) Recursion: Elder: Hard Working
+(2) DP: Younger Brother: Lazy, Smart Worker
+
+
+Task:
+At Ground, Go to 5th Floor
+
+
+Recursion: Hard Worker
+
+Start from ground Floor: ALWAYS
+
+
+1st: 0-1
+2nd: 0-1-2
+3rd: 0-1-2-3
+4th: 0-1-2-3-4
+
+
+DP: Smart Worker
+
+Use a Lift:
+
+1st: 0-1
+2nd: 1-2
+3rd: 2-3
+4th: 3-4
+
+
+
+fib(n) = fib(n-1) + fib(n-2)
+
+--> Recursive Code
+
+int fib(int n)
+{
+    // Base Condition
+    if (n<=1)
+        return n;
+
+    return fib(n-1) + fib(n-2);
+}
+
+
+psvm()
+{
+    fib(3); 2-1
+    fib(5); 4-3-2-1
+    fib(6); 5-4-3-2-1
+}
+
+TC: O(2^N)
+SC: O(1)
+
+
+Recursion Stack:
+
+fib(1)
+fib(2)
+fib(3)
+fib(4)
+fib(5)
+
+
+
+--> DP Code
+
+
+int fibdp(int n)
+{
+int ans[n+1]; // Storing Results
+
+ans[0] = 0;
+ans[1] = 1;
+
+for (i=2; i<=n; i++)
+ ans[i] = ans[i-1] + ans[i-2];   // 4 : ans[3] + ans[2]
+
+return ans[n]; // Nth Fibonacci Number
+}
+
+
+psvm
+{
+    fib(6); [_ _ _ _ _ ANS] 6 Times
+    fib(5); [_ _ _ _ ANS _ ] 
+    fib(3); [_ _ ANS _ _ _] 
+}
+
+TC: O(N)
+SC: O(N)
+
+
+
+
+DP: 
+Store the Results of Previous Subproblems so that it can be used again.
+No Need to RE-CALCULATE Again and Again.
+
+
+
+
+
+N = 100
+
+O(2^N) = 2^100 Iterations = Trillions of Trillions
+O(N) = 100 Iterations
+
+
+
+-----> TRICK: How to Solve Any DP Question in World?
+
+(1) Identify:
+
+Maximum, Minimum, Largest, Smallest, Number of Ways, Count, 
+Permutation etc etc -- DP
+
+- Mathematical Operation
+
+Eg: "Longest" Common Substring (LCS) between two Strings.
+
+(2) Decide a State Expression
+
+state(k) = ?
+
+NOTE: Always Mentioned in the Question.
+Trick: Just Replace N with K
+
+(3) Formulate the State Relation - IMP
+
+- How Does the Current Result relates to Previous Results
+
+state(k) = state(k-1) + state(k-2)
+
+(4) Optimisation - Tabulation/Memoization (Higher Order DP -2D and Above)
+
+
+
+
+Q-1: [Amazon] Max Steps to reach nth stair
+
+There are N stairs, a person standing at the bottom wants to reach the top. 
+The person can climb either 1 stair or 2 stairs at a time. 
+Count the number of ways, the person can reach the top (order does matter).
+
+Example Input:
+4
+Output:
+5
+
+Note: Please output your answer as modulo of 1000000007
+
+
+
+Solution:
+
+
+(1) Identify: DONE
+"Count Number of Ways"
+
+(2) Decide a State Expression
+
+state(k) = Number of Steps to Reach Kth Step Using 1 or 2 Step
+
+NOTE: Always Mentioned in the Question.
+Trick: Just Replace N with K
+
+(3) Formulate the State Relation - IMP
+- How Does the Current Result relates to Previous Results
+
+state(k) = state(k-1) + state(k-2)
+
+
+
+REC: O(2^N), 5 TC Passed, Rest TLE
+
+DP: O(N), All TC Passed
+
+
+Reach: 5th Stair
+
+4th Stair: 1 Step
+3rd Stair: 2 Steps
+
+
+Reach: 15th Stair
+
+14th Stair: 1 Step
+13th Stair: 2 Steps
+
+
+Number of Ways to Reach 5th Stair
+= Number of Ways to Reach 4th Stair
++
+Number of Ways to Reach 3rd Stair
+
+
++: OR
+*: AND
+
+
+state(5) = state(4) + state(3)
+         = state(5-1) + state(5-2)
+
+
+state(k) = state(k-1) + state(k-2)
+            1 Step       2 Steps
+
+
+
+
+
+Note: Please output your answer as modulo of 1000000007
+
+Since the Answer can be Very Large, Hence Use Modulo 1e9+7
+
+int: -2Bn to +2Bn
+
+
+int a = 1.5 Bn;
+int b = 1.5 Bn;
+
+int c = a+b; // Overflow
+System.out.println(c); // Garbage Value
+
+
+long c = a + b ; // No Overflow
+
+
+int c = (a+b) % mod // Overflow
+
+int c = ((a%mod) + (b%mod)) % mod // No Overflow
+
+Note: Sum and Product, ALWAYS think about Overflow
+
+
+
+
+
+
+
+
+
+Questions
+- Amazon: Max Steps: Bottom to Top
+- Amazon: Max Steps: Top to Bottom
+- Fibonacci
+
+
+
+
+Q-2: [Paypal] Removing chocolates
+
+A box contains a number of chocolates that can only be removed 1 at a time or 3 at a a time. 
+How many ways can the box be emptied?
+
+The answer can be very large so return it modulo of 10^9+7
+
+For example, there are n = 7 chocolates initially. They can be removed nine ways as follows:
+
+(1,1,1,1,1,1,1)
+(1,1,1,1,3)
+(1,1,1,3,1)
+(1,1,3,1,1)
+(1,3,1,1,1)
+(3,1,1,1,1)
+(1,3,3)
+(3,1,3)
+(3,3,1)
+
+Input format: Single line represents the no of chocolates in the box.
+
+Output format: The number of ways of removing the chocolates modulo 10^9 + 7
+
+
+In Simple Terms:
+Number of Ways to Make N ---> 0 By Removing 1 or 3 chocolates at a time.
+
+Solution:
+
+
+(1) Identify: DONE
+"How Many Ways"
+
+(2) Decide a State Expression
+
+state(k) = Number of Steps to Empty K Chocolates By Removing 1 or 3 at a time.
+
+NOTE: Always Mentioned in the Question.
+Trick: Just Replace N with K
+
+(3) Formulate the State Relation - IMP
+- How Does the Current Result relates to Previous Results
+
+
+state(k) =  ?
+
+
+7 chocolates:
+- (7-1) chocolates = 6 Chocolates
+- (7-3) chocolates = 4 Chocolates
+
+
+
+state(7) = state(6) + state(4)
+         = state(7-1) + state(7-3)
+
+
+state(k) = state(k-1) + state(k-3)         
+
+
+Rec:
+TC: O(2^N)
+SC: O(1)
+
+
+DP:
+TC: O(N)
+SC: O(N)
+
+Code:
+
+
+dp[0] = 
+dp[1] = 
+dp[2] = 
+
+for (i=3; i<=n; i++)
+    dp[i] = dp[i-1] + dp[i-3];
+
+
+
+Java:
+
+    # 1 = [1] - 1 Way
+    # 2 = [1 1] - 1 Way
+    # 3 = [1 1 1], [3]  - 2 Ways
+
+
+int solve(int n)
+{
+    int mod = 1e9+7;
+    int[] sol = new int[n+1];
+    sol[0] = 0;
+    sol[1] = 1;
+    sol[2] = 1;
+    sol[3] = 2;
+    
+    for (i=3; i<=n; i++)
+        sol[i] = (sol[i-1] % mod + sol[i-3] % mod) % mod;
+
+return sol[n];
+}
+
+
+TC: O(N)
+SC: O(N)
+
+
+
